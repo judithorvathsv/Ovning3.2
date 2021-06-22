@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ovning3per2
 {
-    class Wolfman : Wolf, IPerson
+    public class Wolfman : Wolf, IPerson
     {
         public bool IsAMan { get; }
 

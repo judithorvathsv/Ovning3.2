@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ovning3per2
 {
-    class Pelican: Bird
+    public class Pelican: Bird
     {
         public bool HasBigBeak { get; }
 

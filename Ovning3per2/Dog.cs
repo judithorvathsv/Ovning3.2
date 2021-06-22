@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ovning3per2
 {
-    class Dog: Animal
+    public class Dog: Animal
     {
         public bool IsHappy { get; }
 

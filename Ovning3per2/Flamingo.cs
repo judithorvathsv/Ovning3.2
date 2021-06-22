@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ovning3per2
 {
-    class Flamingo: Bird
+    public class Flamingo: Bird
     {
         public bool LongLegs { get; }
 

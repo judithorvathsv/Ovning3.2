@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Ovning3per2
 {
-    class Program
+   public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
             //13.F: Om vi under utvecklingen kommer fram till att samtliga fåglar behöver ett nytt attribut, i vilken klass bör vi lägga det? -- i Bird klass
