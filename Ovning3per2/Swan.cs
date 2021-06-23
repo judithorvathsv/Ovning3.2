@@ -17,9 +17,9 @@ namespace Ovning3per2
 
         public override void DoSound() => Console.WriteLine("Swan sound... I have never heard that... ");
 
-        public override string Stats() => $"The bird {Name} with weight {Weight}kg and age {Age} is white: {IsWhite} is flying? {isFlying}";
+        public override string Stats() => $"{base.Stats()} is white: {IsWhite} is flying? {isFlying}";
 
-        public override string ToString() => IsWhite ? $"This is {Name}, which is white" : $"This is {Name}, which is black";
+        public override string ToString() =>IsWhite? $"This is {Name}, which is white" : $"This is {Name}, which is not white";
 
     }
 }

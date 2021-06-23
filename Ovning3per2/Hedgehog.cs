@@ -17,7 +17,7 @@ namespace Ovning3per2
 
         public override void DoSound() => Console.WriteLine("I am running.. running...");       
 
-        public override string Stats()=> $"The hedgehog {Name} with weight {Weight}kg and age {Age} is cute? {IsCute}";
+        public override string Stats()=> $"{base.Stats()} is cute? {IsCute}";
        
         public override string ToString()=> IsCute ? $"This is {Name}, which is cute" : $"This is {Name}, which is not cute";    
 

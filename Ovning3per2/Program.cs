@@ -151,7 +151,7 @@ namespace Ovning3per2
             Console.WriteLine("Printing Animal Stats() method: ");
             foreach (var animal in animals)
             {
-                Console.WriteLine(animal.Stats(animal.Name));
+                Console.WriteLine(animal.Stats(animal.Name));          
             }
             Console.WriteLine("----------------------");
         }

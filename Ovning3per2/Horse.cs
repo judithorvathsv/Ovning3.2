@@ -17,7 +17,7 @@ namespace Ovning3per2
 
         public override void DoSound()=> Console.WriteLine("Jihaaa");     
 
-        public override string Stats()=> $"The horse {Name} with weight {Weight}kg and age {Age} is kicking: {IsKicking}";   
+        public override string Stats()=> $"{base.Stats()} is kicking: {IsKicking}";   
 
         public override string ToString()=> IsKicking ? $"This is an animal, {Name}, which is kicking" : $"This is an animal, {Name}, which is not kicking";    
 

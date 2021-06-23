@@ -17,7 +17,7 @@ namespace Ovning3per2
 
         public override void DoSound()=> Console.WriteLine("Wuffff");    
 
-        public override string Stats()=> $"The dog {Name} with weight {Weight}kg and age {Age} is happy: {IsHappy}";     
+        public override string Stats()=> $"{base.Stats()} is happy: {IsHappy}";     
 
         public override string ToString()=> IsHappy ? $"This {Name}, which is happy" : $"This is {Name}, which is not happy";   
        

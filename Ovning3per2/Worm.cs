@@ -17,7 +17,7 @@ namespace Ovning3per2
 
         public override void DoSound()=> Console.WriteLine("Eh... too long way to the apple ");    
 
-        public override string Stats() => $"The worm {Name} with weight {Weight}kg and age {Age} is cute? {!IsDisgusting}";
+        public override string Stats() => $"{base.Stats()} is cute? {!IsDisgusting}";
         
         public override string ToString()=> IsDisgusting ? $"This is {Name}, which is disgusting" : $"This is {Name}, which is  cute";  
       

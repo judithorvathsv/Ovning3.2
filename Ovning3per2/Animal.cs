@@ -19,7 +19,7 @@ namespace Ovning3per2
         }
         public abstract void DoSound();
        
-        public virtual string Stats() => $"The name is {Name}, the weight is {Weight} and the age is {Age} for this animal";          
+        public virtual string Stats() => $"The name is {Name}, the weight is {Weight} and the age is {Age}";          
 
         public string Stats(string name)=> $"The name is {Name}, the weight is {Weight} and the age is {Age} for this animal";     
 

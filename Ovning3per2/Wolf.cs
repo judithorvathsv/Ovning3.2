@@ -20,7 +20,7 @@ namespace Ovning3per2
 
         public override void DoSound()=> Console.WriteLine("Hoooowling.... hooooowling");    
 
-        public override string Stats() => $"The wolf {Name} with weight {Weight}kg and age {Age} is howling? {IsHowling}";
+        public override string Stats() => $"{base.Stats()} is howling? {IsHowling}";
 
         public override string ToString()=> IsHowling ? $"This is {Name}, which is howling" : $"This is {Name}, which is not howling";           
     }

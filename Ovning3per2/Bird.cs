@@ -16,7 +16,7 @@ namespace Ovning3per2
         }
         public override void DoSound()=> Console.WriteLine("Crip Crip... ");     
 
-        public override string Stats()=> $"The bird {Name} with weight {Weight}kg and age {Age} is flying? {isFlying}";
+        public override string Stats()=> $"{base.Stats()} is flying? {isFlying}";
 
         public override string ToString()=> isFlying ? $"This is {Name}, which can fly" : $"This is {Name}, which cannot fly";      
 
